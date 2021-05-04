@@ -30,8 +30,7 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
-      <div className={styles.perspectiveBar}>
-      </div>
+      <div className={styles.perspectiveBar}></div>
       <div className={styles.characterWrapper}>
         <Character
           body={body}
