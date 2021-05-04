@@ -7,7 +7,7 @@ In this workshop, you'll build a Sims-style character creation screen.
 
 Desktop:
 
-<img alt="Desktop-sized screenshot of the character creation screen" src="./docs/mockup.png" style="width: 100%;" />
+<img alt="Desktop-sized screenshot of the character creation screen" src="./docs/mockup.png" style="max-width: 100px;" />
 
 For this workshop, we're only targeting desktops (although if you're so inclined, creating a mobile variant would make a great stretch goal!).
 
@@ -77,25 +77,25 @@ We have a `MaxWidthWrapper` constraining the max width, but everything is super 
 
 Our header should be 65% of the available width, and our control-panel column should be 50%.
 
-<img alt="Annotated mockup showing the overall width at 1024px, the header occupying 65%, and the control panels occupying 50%" src="./docs/sizes.png" style="width: 100%;" />
+<img alt="Annotated mockup showing the overall width at 1024px, the header occupying 65%, and the control panels occupying 50%" src="./docs/sizes.png" style="max-width: 500px;" />
 
 The character (the big illustration) should use fixed positioning, and it should occupy the space cleared by the above width tweaks.
 
 Give the character a minimum height of 500px. On smaller windows, this means the character won't fit in the viewport:
 
-<img alt="Screenshot of a shorter Chrome window, with the character truncated at the knees" src="./docs/short-window.png" style="width: 100%;" />
+<img alt="Screenshot of a shorter Chrome window, with the character truncated at the knees" src="./docs/short-window.png" style="max-width: 100%;" />
 
 ### Exercise 3: Overflow
 
 Each control panel features a number of customizations. For control panels with too many options, a horizontal scrollbar should be introduced:
 
-<img alt="Close-up screen recording of the overflow area in the control-panel" src="./docs/overflow.gif" style="width: 100%;" />
+<img alt="Close-up screen recording of the overflow area in the control-panel" src="./docs/overflow.gif" style="max-width: 100%;" />
 
 ### Exercise 4: Perspective decoration
 
 To help add a bit of perspective, a light gray bar should extend across the bottom 40% of the screen:
 
-<img alt="Screenshot of the mockup, showing the light gray bar" src="./docs/mockup.png" style="width: 100%;" />
+<img alt="Screenshot of the mockup, showing the light gray bar" src="./docs/mockup.png" style="max-width: 100%;" />
 
 It should sit behind the avatar (and both the perspective bar and the character should sit below the footer):
 
